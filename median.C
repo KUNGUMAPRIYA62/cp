@@ -1,7 +1,7 @@
 #include<stdio.h>
-int main()
+void main()
 {
-	int size,a[100],i,mid,j,median;
+	int size,a[1000],i,mid,j,median;
 	printf("\n enter the size of an array");
 	scanf("%d",&size);
 	printf("\n enter the elements of an array");
@@ -18,5 +18,5 @@ int main()
   printf("%d",&median);
   }
   }
-  return 0;
-  }
+}
+  
